@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Menu</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      .container {
+        height: 60vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .item1,
+      .item2,
+      .item3 {
+        background-color: grey;
+        height: 140px;
+        width: 360px;
+        border: 2px solid black;
+      }
+      h2 {
+        background-color: brown;
+        text-align: end;
+        margin: 0px;
+        padding: 3px 40px;
+        margin-left: 180px;
+        text-align: center;
+        border-left: 1.5px solid black;
+        border-bottom: 1.5px solid black;
+      }
+      p {
+        margin-top: 3px;
+        padding: 6px;
+      }
+      .chicken {
+        background-color: lightpink;
+      }
+      .beef {
+        background-color: brown;
+        color: white;
+      }
+      .sushi {
+        background-color: #c5c35a;
+      }
+      @media (max-width: 1200px) {
+           /*  I Cant do anything here */
+      }
+      @media (max-width: 1100px) {
+        .container {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Our Menu</h1>
+    <div class="container">
+      <div class="item1">
+        <h2 class="chicken">Chicken</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
+          perspiciatis accusantium perferendis officiis quidem a cumque ut
+          culpa. Dicta, totam. Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Commodi, neque?
+        </p>
+      </div>
+      <div class="item2">
+        <h2 class="beef">Beef</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+          suscipit consectetur accusantium minus quo unde magni quae impedit
+          tempora consequuntur? Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Velit, cumque.
+        </p>
+      </div>
+      <div class="container2">
+        <div class="item3">
+          <h2 class="sushi">Sushi</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque eos
+            ut aperiam doloribus quasi! Cumque esse nobis impedit incidunt sit?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+            ut?
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
